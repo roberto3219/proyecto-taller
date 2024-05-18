@@ -1,0 +1,14 @@
+{
+  "name": "taller",
+  "version": "1.0.0",
+  "description": "taller pagina de amor",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Grupo_taller",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
