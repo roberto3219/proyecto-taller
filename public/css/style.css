@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.header_conteiner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    background-color: pink;
+    box-shadow: 1px 1px 10px 5px gray;
+}
+.subtitle_conteiner{
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    margin-top: 15px;
+
+}
+.title_love{
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.featured_love_letters{
+    margin: 50px 30px;
+}
+.description_letter{
+    padding:10px  20px;
+}
+.feactured_letter{
+    border: 1px solid black;
+    width: 300px;
+    margin-top: 50px;
+    border-radius: 5px;
+    margin-right:30px;
+}
+.link_page{
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: white;
+    border: solid 1px black;
+    font-size: 16px;
+    font-family:sans-serif;
+    font-weight: 700;
+    color: black;
+    transition-duration: 1s;
+    transition-property: color,background-color;
+}
+.link_page:hover{
+    color: white;
+    background-color: red;
+}
+.link_conteiner_page{
+    display: flex;
+    padding-top: 30px;
+}
+li{
+    list-style: none;
+}
+.conteiner_letter{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.letter_p_main{
+    text-align: center;
+}
+.img_letter{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+}
+@keyframes subtitleContent {
+    0%,100%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-5px);
+    }
+}
+.shaking-letter{
+    display: inline-block;
+    animation: subtitleContent 1s infinite;
+}
