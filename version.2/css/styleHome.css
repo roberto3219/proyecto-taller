@@ -1,0 +1,140 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url("../img/love.jpg");
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.header_main{
+    background-color: rgb(241, 163, 184);
+    border-radius: 29px;
+    margin:100px 10px;
+    width: 1000px;
+}
+.header_conteiner{
+    display: flex;
+    
+}
+.img_header{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.eslogan_main{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+.eslogan_header{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main_conteiner{
+    display: flex;
+    flex-wrap: wrap;
+    background-color:  rgb(241, 163, 184);
+    justify-content: center;
+    align-items: center;
+    padding: 70px 20px;
+    width: 1000px;
+    border-radius: 30px;
+}
+.conteiner_section{
+   justify-content: space-around;
+   align-items: baseline;
+}
+.main_home{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.img_conteiner{
+    width: 160px;
+    border-radius: 10px;
+}
+.img_conteiner{
+    width: 170px;
+    border-radius: 10px; 
+}
+
+.div_img_header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid rgb(254, 205, 233);
+    background-color: rgb(254, 205, 233);
+    border-radius: 10px;
+    margin: 20px;
+}
+.conteiner_img{
+    margin: 10px;
+}
+.li_nlace{
+    list-style: none;
+    margin: 5px;
+}
+.ul_li_enlace{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.link_main{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 900;
+    color: black;
+}
+
+
+.bottom_enlace{
+    background-color:  rgb(254, 205, 233);
+    border-radius: 15px;
+    margin: 5px 50px;
+    padding: 5px 25px;
+}
+#numero_2_enlace{
+    box-shadow: 5px 18px 1px 0px rgb(96, 92, 92) ;
+    
+}
+.h6_parrafo_contact{
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: 900;
+}
+.parrafo_conteiner{
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.div_conteiner_main{
+    width: 350px;
+}
+.parrafo_subtitle{
+    font-family: sans-serif;
+}
+p{
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.enlace_main{
+    position: absolute;
+    margin-bottom: 350px;
+}
+.main_conmtainer_second{
+    margin-bottom: 580px;
+}
+.main_second{
+    margin-bottom: 417px;
+}
